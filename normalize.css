@@ -1,0 +1,142 @@
+body{
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+	background-color: #A3C4C5;
+}
+
+.container-fluid #logo{
+	width:15%;
+	padding-left:35px;
+	background-color:#A3C4C5;
+}
+ .navbar{
+ 	margin:0px;
+ 	border:none;
+ }
+
+.row{
+	background-color: #A3C4C5;
+}
+
+.row .nav li a:hover{
+	color:gray;
+}
+
+.row .nav li:last-child{
+	padding-right:60px;
+}
+
+.row .nav li a{
+	padding-top:30px;
+	color:black;
+}
+
+ section .container-fluid{
+	position: relative;
+}
+
+.banner-text{
+	position:absolute;
+	top:10%;
+	left:20%;
+}
+
+.text_color{
+	color:white;
+}
+
+.banner-text a{
+	font-size:2em;
+}
+
+.banner-text a:hover{
+	text-decoration:none;
+	color:black;
+}
+
+.banner-text p{
+	font-size:2em;
+	padding:0px;
+	margin:0px;
+	color:lightblue;
+	line-height: 1px;
+	padding-top:20px;
+}
+
+.banner-text p:first-child{
+	padding-top:30px;
+}
+
+.moto{
+	position:absolute;
+	top:60%;
+	left:25%;
+}
+
+.moto:hover{
+	border: 2px solid gray;
+	font-size:0.75em;
+}
+.moto blockquote{
+	border:none;
+	font-size:2em;
+	color:lightblue;
+	font-style: italic;
+}
+
+.container-fluid .contact{
+	position:absolute;
+	border-left:5px solid gray;
+	top:35%;
+	right:7%;
+}
+
+.contact li{
+	list-style-type: none;
+	padding-left:30px; 
+	font-size:1.50em;
+	padding-bottom: 25px;
+}
+
+.contact li i{
+	padding-right:10px;
+}
+
+.contact li:last-child{
+	padding-bottom:0px;
+}
+
+.contact li a{
+	color:white;
+	font-style: italic;
+}
+
+.contact li a:hover{
+	text-decoration:none;
+	border-bottom: 1px solid gray;
+}
+
+section[role="about_me"] .container-fluid{
+	padding:6.538% 11.538% 0;
+}
+
+section[role="about_me"] p{
+	font-size: 1.25em;
+}
+
+section[role="about_me"] h3{
+	font-weight:bold;
+	color:black;
+}
+
+.whitespace{
+	background-color: white;
+	height:6.923%;
+	width:100%;
+}
+
+.videos .row #comp{
+	display:block;
+	margin:auto;
+}
